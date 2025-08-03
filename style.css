@@ -32,8 +32,16 @@ div{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
 }
 img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
     object-fit: contain;
 }
 footer{
